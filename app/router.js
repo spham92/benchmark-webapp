@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('simple-leaf-page-data-download');
 });
 
 export default Router;

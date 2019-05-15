@@ -1,0 +1,13 @@
+{{#each model as |tableData|}}
+  <table class="table">
+    <tbody>
+      {{#each tableData.rows as |row|}}
+        <tr>
+          <td>{{row.first}}</td>
+          <td>{{row.last}}</td>
+          <td>{{row.description}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+{{/each}}
